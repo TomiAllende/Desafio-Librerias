@@ -11,3 +11,18 @@ function pedidos (mensajeordenes) {
 }
 
 console.log(serviciocliente)
+
+
+
+
+const sweetAlert = document.querySelector (".sweetAlert")
+
+sweetAlert.onclick = (e) => {
+
+swal({
+    title: "Aqui esta su orden!",
+    text: "Usted ha elegido consumir nuestros prductos ",
+    icon: "success",
+    button: "Aww yiss!",
+  });
+}

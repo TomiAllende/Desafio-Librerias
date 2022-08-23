@@ -229,7 +229,8 @@ body {
       display: grid;
       grid-template-columns: auto;
       grid-template-rows: auto;
-      grid-template-areas: ".anuncio." ".carousel.";
+      grid-template-areas: ".anuncio."
+ ".carousel.";
       align-items: center; } }
 
 .muevecarro:hover {
@@ -369,3 +370,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between; }
+
+  .sweetAlert{
+    background-color: rgb(69, 43, 94);
+}
