@@ -15,7 +15,7 @@ console.log(serviciocliente)
 
 
 
-const sweetAlert = document.querySelector (".sweetAlert")
+const sweetAlert = document.querySelector ("#sweetAlert")
 
 sweetAlert.onclick = (e) => {
 swal({
